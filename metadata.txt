@@ -1,0 +1,26 @@
+Each netcdf file contains the following informations:
+Dimensions:
+           lon  = 57 (Latitude)
+           lat  = 56 (Longitude)
+           elev = 10 (Elevations)
+Variables:
+    Reflectivity
+           Size:       57x56x10 (longitude x latitude x elevation)
+           Dimensions: lon,lat,elev
+           Datatype:   double
+    velocity     (Radial velocity)
+           Size:       57x56x10 (longitude x latitude x elevation)
+           Dimensions: lon, lat, elev
+           Datatype:   double
+    lat         
+           Size:       56x1
+           Dimensions: lat
+           Datatype:   double
+    lon         
+           Size:       57x1
+           Dimensions: lon
+           Datatype:   double
+    elev        
+           Size:       10x1
+           Dimensions: elev
+           Datatype:   double
